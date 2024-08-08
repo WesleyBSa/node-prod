@@ -1,0 +1,22 @@
+{
+  "name": "cadprod",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node --env-file=.env --import=tsx --watch ./src/server.ts"
+  },
+  "author": "Wesley",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
+  }
+}
